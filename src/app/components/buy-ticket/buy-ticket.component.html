@@ -1,0 +1,25 @@
+<div class="container">
+    <img [src]="band.imageUrl" [alt]="band.name">
+    <div class="details">
+        <div class="header">
+            <span class="name">
+                {{band.name}}
+            </span>
+        </div>
+        <div class="date">
+            {{band.date}}
+        </div>
+        <div class="description">
+            {{band.description}}
+        </div> 
+        <div class="price">
+            {{band.price | currency}}
+        </div>
+      
+            <button (click)="addToCart()"  mat-flat-button color="primary"><mat-icon>assignment</mat-icon>Add to Cart</button>
+
+    </div>
+
+   
+
+</div>

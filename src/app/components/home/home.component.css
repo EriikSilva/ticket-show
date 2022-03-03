@@ -1,0 +1,80 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+ul li a{
+    display: flex;
+    flex-direction: column;
+    height: 29rem;
+    width: 20rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: red;
+    border: 1px solid grey;
+    background-color: #fff;
+}
+
+li a:hover{
+    opacity: .9;
+}
+
+
+ul li a img{
+    width: 20rem;
+    height: 15rem;
+}
+
+ul li a .name{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .8rem 0;
+    font-weight: bold;
+    color: black;
+}
+ul li a .date{
+    font-size: 1rem;
+    text-align: center;
+}
+
+ul li a .description{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+    text-transform: uppercase;
+}
+
+ul li a button{
+    width: 50%;
+    margin: auto;
+}
+
+ul li a .price{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+

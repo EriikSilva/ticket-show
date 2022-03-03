@@ -1,0 +1,106 @@
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+    color: white;
+  
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    justify-content: space-evenly;
+   
+    list-style-type: none;
+    margin: .5rem;
+    padding: 0;
+    
+}
+
+ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,194,1) 35%, rgba(0,212,255,1) 100%);
+    margin-bottom: 1rem;
+    border-radius: 4rem;
+    
+   
+}
+
+ul li:last-child{
+    border: none;
+
+}
+
+ul li img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+
+ul li div{
+    padding: 1rem;
+}
+
+ul li select{
+    width: 3rem;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+
+ul li .name{
+    margin-top: 1rem;
+    font-size: 3rem;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ul li .price{
+    font-size: 2rem;
+    width: 7rem;
+    border-radius: 3rem;
+    background: green;
+    align-items: center;
+}
+
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 20rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    background-color: white;
+    opacity: .8;
+    color: black;
+    
+}
+
+.count, .total{
+    font-size: 2rem;
+}
+
+.count{
+    padding: 2rem;
+}
+
+.buy{
+    display: flex;
+    width: 7rem;
+    text-align: center;
+    margin:1rem;
+}
+
+

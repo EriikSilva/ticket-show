@@ -1,0 +1,25 @@
+<div class="title">
+    <h1>Shows of the week</h1>
+</div>
+<hr>
+<ul>
+    <li *ngFor="let band of bands">
+            <a routerLink="/buyTicket/{{band.id}}">
+                <img src="{{band.imageUrl}}" alt="">
+                <div class="name">
+                    {{band.name}}
+                </div>
+                <div class="date">
+                   <span>Day</span> {{band.date}}
+                </div>
+                <div class="description">
+                    {{band.description}}
+                </div>
+                <div class="price">
+                    {{band.price | currency}}
+                </div>
+                <button mat-flat-button color="primary"><mat-icon>assignment</mat-icon>Go to...</button>
+            </a>
+    </li>   
+</ul>
+
